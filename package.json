@@ -1,0 +1,15 @@
+{
+  "name": "outreach-extension-assignment-checks",
+  "private": true,
+  "version": "3.7.0",
+  "scripts": {
+    "test": "node --test tests/core.test.cjs tests/background.test.cjs tests/writer.test.cjs tests/providers.test.cjs",
+    "test:browser": "node tests/browser.cjs",
+    "browser:install": "node tools/install-browser.cjs",
+    "test:polish": "node tests/final-polish.cjs",
+    "test:recovery": "node tests/key-recovery.cjs",
+    "check:package": "node tools/check-package.cjs",
+    "check": "node --check \"linkedin extention/background.js\" && node --check \"linkedin extention/content_script.js\" && node --check \"linkedin extention/popup.js\" && node --check \"linkedin extention/utils/outreach.js\" && node --check \"linkedin extention/utils/writer.js\" && node --check \"linkedin extention/utils/credentials.js\" && node --check \"linkedin extention/utils/providers.js\" && node --check \"linkedin extention/utils/cache.js\" && node --check \"linkedin extention/utils/resume.mjs\""
+  },
+  "devDependencies": {"playwright": "1.62.1", "pdf-lib": "1.17.1"}
+}

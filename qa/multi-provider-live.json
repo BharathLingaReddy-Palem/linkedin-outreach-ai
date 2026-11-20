@@ -1,0 +1,39 @@
+{
+  "version": "3.7.0",
+  "fixture": "Built-in fictional Avery Demo / Jordan Example only. Real API calls from isolated unpacked Chromium extension, not the installed Edge copy. No real profile/resume sent. No Claude/OpenAI/NVIDIA live calls in this test.",
+  "results": [
+    {
+      "provider": "groq",
+      "status": "VERIFIED",
+      "selectedModel": "openai/gpt-oss-20b",
+      "checks": [
+        "Live account-model lookup through actual MV3 worker, no personal data",
+        "Live key/model connection test",
+        "Key remembered in protected local credential storage, not prompt/settings context",
+        "Live fictional-demo generation, optional review unchecked, <=700 characters",
+        "Live shorter rewrite and exact Undo",
+        "Draft recovery; reopening restores local mode with cloud not auto-selected"
+      ],
+      "milliseconds": 605,
+      "characters": 327,
+      "message": "Hi Avery,\n\nI’m Jordan, a computing student focused on AI product engineering. I built a RAG assistant with Python and FastAPI and am eager to apply my skills in a real‑world setting. I noticed you’re an AI Engineer at Example Labs and wondered if there are any AI engineering internships on your team.\n\nThank you for your time."
+    },
+    {
+      "provider": "gemini",
+      "status": "VERIFIED",
+      "selectedModel": "gemini-3.5-flash-lite",
+      "checks": [
+        "Live account-model lookup through actual MV3 worker, no personal data",
+        "Live key/model connection test",
+        "Key remembered in protected local credential storage, not prompt/settings context",
+        "Live fictional-demo generation, optional review unchecked, <=700 characters",
+        "Live shorter rewrite and exact Undo",
+        "Draft recovery; reopening restores local mode with cloud not auto-selected"
+      ],
+      "milliseconds": 2606,
+      "characters": 507,
+      "message": "Hi Avery, I am a computing student seeking AI product engineering internships. I recently built a RAG assistant using Python and FastAPI, focusing on efficient retrieval and backend integration. Given your work as an AI Engineer at Example Labs, I wanted to reach out directly. Are there AI engineering internships currently available on your team? I would appreciate the chance to discuss how my background aligns with your ongoing projects. Thank you for your time and consideration.\n\nBest,\nJordan Example"
+    }
+  ],
+  "previousAttempts": []
+}

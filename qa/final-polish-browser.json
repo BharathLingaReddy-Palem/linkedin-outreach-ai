@@ -1,0 +1,15 @@
+{
+  "version": "3.7.0",
+  "fixture": "Isolated Chromium, actual MV3 extension, mocked profile, saved fictional facts only. No real API or LinkedIn messages.",
+  "checks": [
+    "recipient details collapse after successful read; Edit works; remaining review checkbox removed; extra help collapsed",
+    "one selected reviewed project drives local draft and survives popup recovery",
+    "changed/deleted saved evidence requires re-selection rather than silently inserting another project; bio-only recovers",
+    "Recent retains latest 20, with recipient/company/purpose/date, compact expandable message preview and visible retention",
+    "case-insensitive recipient/company search, no-results state and Clear search work",
+    "Copy uses final wording without claiming sending; Open/Edit autosaves latest corrected text back to library",
+    "Delete removes active draft from library and Current; Undo restores exact final edits",
+    "400px layout has no horizontal overflow or unnamed visible controls; no page errors"
+  ],
+  "errors": []
+}

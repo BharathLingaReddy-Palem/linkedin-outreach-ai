@@ -1,0 +1,16 @@
+Mozilla PDF.js / pdfjs-dist 5.6.205
+Source: https://github.com/mozilla/pdf.js
+Documentation: https://mozilla.github.io/pdf.js/examples/
+License: Apache License 2.0; see vendor/pdfjs/LICENSE.
+Unmodified pdf.min.mjs and pdf.worker.min.mjs copied from the installed
+pdfjs-dist 5.6.205 runtime package. Local extraction wrapper is utils/resume.mjs.
+API reference: https://mozilla.github.io/pdf.js/api/draft/module-pdfjsLib.html
+
+Anthropic model IDs (configurable; no credentials included):
+https://platform.claude.com/docs/en/about-claude/models/model-ids-and-versions
+
+NVIDIA hosted API reference (no credentials included):
+https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b/apireference
+https://build.nvidia.com/nvidia/nemotron-3.5-bolt-e4b
+NVIDIA API Trial Terms:
+https://assets.ngc.nvidia.com/products/api-catalog/legal/NVIDIA%20API%20Trial%20Terms%20of%20Service.pdf

@@ -1,0 +1,14 @@
+{
+  "version": "3.7.0",
+  "fixture": "Isolated Chromium with actual extension reload/browser restart; fake keys only, no API requests. Provider-options screenshot temporarily expands native select to show all options.",
+  "checks": [
+    "Saving two provider keys retains both, despite a different last Settings selection",
+    "Real LinkedIn content-script context cannot read local credential storage",
+    "Keys survive developer reload/update of the same unpacked path and extension ID",
+    "Keys survive closing/restarting the browser with the same extension identity",
+    "Compose exposes every provider plus matching model menus; both saved writers ready without checkboxes",
+    "Saving a model update changes the current Compose model without switching its provider or retaining stale choice",
+    "Forget selected key removes only that key and does not resurrect on reopening",
+    "Forget all keys removes remembered credentials, without re-importing old session values"
+  ]
+}

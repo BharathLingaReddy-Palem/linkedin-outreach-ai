@@ -1,0 +1,28 @@
+.env
+.env.*
+!.env.example
+qa/browser-cache/
+qa/browser-profile-*/
+myresume/
+qa/resume-local-review.png
+node_modules/
+
+# Private assignment material and generated archives are not source.
+model-review/
+*.zip
+*.pem
+*.key
+original-extension-test.jpg
+Ark_Abroad_Internship_Assignment.txt
+FORK_REPORT.md
+SANITIZATION_REPORT.md
+
+# QA is opt-in: only reviewed, fictional-data reports/screenshots are shared.
+qa/*
+!qa/final-polish.tdd.md
+!qa/final-polish-browser.json
+!qa/key-recovery.json
+!qa/browser-results.json
+!qa/multi-provider-live.json
+!qa/compose-project-3.7.png
+!qa/recent-library-3.7.png

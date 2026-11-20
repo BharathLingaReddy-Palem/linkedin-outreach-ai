@@ -1,0 +1,80 @@
+Ark Abroad - final v3.7.0 Loom walkthrough (about 3-4 minutes)
+
+Record your own screen and voice. This is a script, not a published Loom.
+The historical qa/phase-two-demo.webm is silent and does not demonstrate 3.7.
+Never show .env, API keys, provider consoles, password fields, private contact
+details, or a real person's resume/profile in a cloud request.
+
+PREPARE
+Reload the SAME installed extension/folder; refresh LinkedIn; confirm v3.7.0.
+Do not Remove/reinstall/change source folder: that may create another identity.
+Choose a consenting profile or use manual fictional Avery Demo / Example Labs.
+For ANY cloud demonstration use Try a fictional demo (Avery/Jordan). Your real
+sender settings are unchanged. Configure a key beforehand, then collapse settings.
+Keep the original-extension-test.jpg ready for the real before screenshot.
+
+0:00-0:25 - The problem and product judgment
+Show original-extension-test.jpg: Hi (20) / your work as your work.
+Say: "I improved the supplied extension instead of rebuilding it. I focused on
+trustworthy recipient details, useful writing without a paid API key, and
+drafts users can recover. AI is optional."
+
+0:25-0:55 - Context that is actually used
+Your context: name, short introduction, reviewed skills/projects.
+If showing your PDF, explain it is parsed locally; inspect text, choose relevant
+lines, then save highlights. Do not expose contact details or send this context
+to a trial cloud endpoint. Uploading alone never silently selects resume facts.
+
+0:55-1:40 - A useful local draft
+Compose > Read profile. Show the compact recipient summary; Edit details opens
+the actual source-labelled fields. Missing company can stay empty, not invented.
+Select one saved project in Highlight this project or skill. Set a clear ask,
+such as "Are there AI engineering internships on your team?"
+Choose Local and generate. Point out: no key, no cloud request, no checkbox.
+Switch between Warm and Direct; acknowledge replacement confirmation if shown.
+Explain that local mode is deterministic writing rules, not a hidden free LLM.
+
+1:40-2:10 - Editing that respects user work
+Edit a sentence, show Shorter/Warmer and Undo. Why this message shows matching
+source wording, NOT an AI fact-check or proof of correctness. Show the budget.
+Close/reopen: edited wording and selected project return. Local defaults again.
+
+2:10-2:50 - Recent as a useful library
+Recent: show recipient/company/purpose/date and compact expandable previews.
+Search by a name/company. Open & edit, change wording, return to Recent.
+Show final edits retained. Copy does NOT mark Sent; the extension never sends.
+Delete a disposable draft and immediately Undo. Explain the latest 20 recipient
+drafts are kept, one final draft each, not a full version archive.
+Undo is available for 30 seconds while the popup stays open.
+
+2:50-3:20 - Optional AI, with clear boundaries
+Use Try a fictional demo. Choose Groq or Gemini directly in Compose, then model.
+Click Generate. The inline notice explains sharing; no repeated checkboxes.
+Keys are remembered on the device across same-ID reload/restart, NOT encrypted.
+Do not show key fields. Mention Forget selected/all controls.
+Groq/Gemini were live-tested; Claude/OpenAI are implemented but mock-tested only.
+If provider service fails, show the honest error/local fallback and keep going;
+do not claim a template is an AI response. Failed rewrites preserve existing text.
+
+3:20-3:50 - How it is built, evidence and tradeoffs
+Show source structure: content_script.js reads visible profile DOM; background.js
+handles writing and serialized history; popup.js manages UI; local utilities do
+writing/source matching. Existing MV3 architecture, no company backend or CDN.
+Show qa/final-polish.tdd.md: failing tests first, 72 passing logic tests, browser
+journeys, actual key reload/restart checks and fictional Groq/Gemini API tests.
+Say coverage percentages apply only to Node-loaded app scripts, not the whole UI.
+Limitations: LinkedIn markup varies; hidden roles may require manual entry;
+cloud output needs factual review. No sending or fake web enrichment.
+Close: "The outcome is an intentional first conversation, with fewer steps and
+drafts that don't disappear."
+
+LAST CHECK BEFORE SUBMITTING
+Replay the Loom: audible voice, readable popup, no secrets, link opens with the
+right viewing access. Verify actual ZIP version 3.7.0 and no .env/private resume.
+The ZIP contains extension files only. Tests and evidence are in the workspace;
+if sharing source separately, exclude .env, myresume and browser profiles.
+
+Submit YOUR Loom link by email to mihir@arkabroad.xyz
+CC hello@arkabroad.xyz and pm@arkabroad.xyz.
+Original deadline: 22 November, 5:00 PM IST.
+No email, Loom upload or publication has been performed by this assistant.
