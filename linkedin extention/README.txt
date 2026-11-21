@@ -137,12 +137,12 @@ GROQ_API_KEY/GEMINI_API_KEY (or groq/gemini) from parent .env outside the packag
 Optional --provider=gemini runs only that provider. No automatic retry in product.
 NVIDIA smoke scripts remain optional and use only fictional data.
 Final-polish acceptance, RED/GREEN and coverage: ../qa/final-polish.tdd.md and
-../qa/final-polish-browser.json. Earlier recovery evidence:
-../qa/compose-recovery-verification.txt,
+../qa/final-polish-browser.json. Published recovery and provider evidence:
 ../qa/key-recovery.json, ../qa/multi-provider-live.json, ../qa/browser-results.json.
 Claude/OpenAI are mock-tested only, not live API tested. Installed Edge 3.7
 acceptance is separate from isolated Chromium checks and still requires Reload.
-Earlier verification reports and silent clip are historical, not this version.
+Earlier verification reports and silent clip are historical, not this version,
+and are intentionally not included in the public repository.
 See ../DEMO_GUIDE.txt. User must record/publish their Loom; no email was sent.
 
 DEPENDENCIES
