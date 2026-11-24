@@ -1,4 +1,4 @@
-# Outreach AI — Ark Abroad
+# Outreach AI
 
 An incremental improvement to the supplied LinkedIn Outreach AI Chrome/Edge extension. Version **3.7.0** retains its Manifest V3 architecture: no framework rebuild, company backend, automatic sending or claimed web enrichment.
 
